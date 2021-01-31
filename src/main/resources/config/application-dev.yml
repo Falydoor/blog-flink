@@ -15,9 +15,10 @@
 
 logging:
   level:
-    ROOT: DEBUG
+    ROOT: INFO
     io.github.jhipster: DEBUG
     com.mycompany.myapp: DEBUG
+    com.amazonaws.internal: ERROR
 
 spring:
   profiles:
